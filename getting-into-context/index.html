@@ -1,8 +1,11 @@
 <script>
     function helloJS() {
 		var msg = 'hello, ';
-		var txtValue = document.getElementById('txt').value;
-		console.log(msg + txtValue);
+		var txt = document.getElementById('txt');
+
+		txt.addEventListener('change', function() {
+		    console.log(msg + txt.value);
+		});
 	}
 
 	window.addEventListener('DOMContentLoaded', helloJS, false);
