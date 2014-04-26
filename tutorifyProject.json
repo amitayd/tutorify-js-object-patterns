@@ -20,6 +20,16 @@
           "role": "mainHtml"
         }
       ]
+    },
+    "arguments-by signature": {
+      "id": "arguments-by signature",
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     }
   }
 }
