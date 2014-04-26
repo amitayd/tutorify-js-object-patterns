@@ -1,0 +1,25 @@
+{
+  "settings": {
+    "htmlTemplate": "\n  <html>\n  <head>\n    {{#resourceCss}}\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"{{src}}\">\n    {{/resourceCss}}\n    {{#inlineCss}}\n      <style>\n      {{content}}\n      </style>\n    {{/inlineCss}}\n    {{#settings.resourceScripts}}\n      <script src=\"{{src}}\"></script>\n    {{/settings.resourceScripts}}\n    <script>\n    function sandboxEntry() {\n    {{#inlineScripts}}\n      \n      {{{content}}}\n      \n    {{/inlineScripts}}\n    }\n    </script>\n  <title>Snipper result</title></head>\n  <body>\n      {{{mainHtml.content}}}\n      <div id=\"log\"></div>\n  </body>\n  </html>\n  ",
+    "resourceScripts": [
+      {
+        "src": "lib/q.js"
+      },
+      {
+        "src": "lib/utils.js"
+      }
+    ]
+  },
+  "codeGroups": {
+    "getting-into-context": {
+      "id": "getting-into-context",
+      "files": [
+        {
+          "name": "index.html",
+          "mode": "html",
+          "role": "mainHtml"
+        }
+      ]
+    }
+  }
+}
