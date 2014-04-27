@@ -102,6 +102,24 @@
           "role": "script"
         }
       ]
+    },
+    "prototypes-simple": {
+      "id": "prototypes-simple",
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
+    },
+    "prototypes-hierarchy": {
+      "id": "prototypes-hierarchy",
+      "files": []
+    },
+    "prototypes-mixins": {
+      "id": "prototypes-mixins",
+      "files": []
     }
   }
 }
