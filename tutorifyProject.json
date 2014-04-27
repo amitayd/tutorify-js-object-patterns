@@ -52,6 +52,16 @@
           "role": "script"
         }
       ]
+    },
+    "arguments-to-array": {
+      "id": "arguments-to-array",
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     }
   }
 }
