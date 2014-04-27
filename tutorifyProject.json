@@ -62,6 +62,24 @@
           "role": "script"
         }
       ]
+    },
+    "object-construction-new": {
+      "id": "object-construction-new",
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
+    },
+    "object-construction-literal": {
+      "id": "object-construction-literal",
+      "files": []
+    },
+    "object-construction-object-create": {
+      "id": "object-construction-object-create",
+      "files": []
     }
   }
 }
