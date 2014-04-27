@@ -8,7 +8,9 @@
       {
         "src": "lib/utils.js"
       }
-    ]
+    ],
+    "liveUpdate": false,
+    "fontSize": 16
   },
   "codeGroups": {
     "getting-into-context": {
