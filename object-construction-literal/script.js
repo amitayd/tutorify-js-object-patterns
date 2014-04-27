@@ -6,6 +6,6 @@ var car = {
 };
 
 console.log("car speed:", car.speed);
-console.log("driving...")
+console.log("driving...");
 car.drive();
 console.log("car speed:", car.speed);
