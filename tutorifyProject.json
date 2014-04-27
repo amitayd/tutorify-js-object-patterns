@@ -92,6 +92,16 @@
           "role": "script"
         }
       ]
+    },
+    "object-construction-constructor-functions": {
+      "id": "object-construction-constructor-functions",
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     }
   }
 }
