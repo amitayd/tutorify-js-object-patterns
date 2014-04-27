@@ -1,15 +1,13 @@
-function Vehicle() {
-    this.drive = function () {
-        this.speed = this.maxSpeed;
-    }
-}
-
 function Car(maxSpeed) {
     this.speed = 0;
     this.maxSpeed = maxSpeed;
 }
 
-Car.prototype = new Vehicle();
+Car.prototype = {
+  drive: function() {
+      this.speed = this.maxSpeed;
+  }
+};
 
 var bmw = new Car(160);
 console.log('bmw speed:', bmw.speed);
