@@ -10,6 +10,6 @@ function argumentsPowSum(exponent) {
     return sum;
 }
 
-console.log(argumentsPowSum(2,4));
+console.log(argumentsPowSum(2, 8, 25));
 //argumentsSum(1, 2, 3);
 //argumentsSum(2, 3);
