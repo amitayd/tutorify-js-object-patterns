@@ -120,6 +120,16 @@
     "prototypes-mixins": {
       "id": "prototypes-mixins",
       "files": []
+    },
+    "prototypes-chains": {
+      "id": "prototypes-chains",
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     }
   }
 }
