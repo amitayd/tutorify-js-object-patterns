@@ -75,7 +75,13 @@
     },
     "object-construction-literal": {
       "id": "object-construction-literal",
-      "files": []
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     },
     "object-construction-object-create": {
       "id": "object-construction-object-create",
