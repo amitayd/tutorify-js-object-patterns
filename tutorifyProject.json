@@ -32,6 +32,16 @@
           "role": "script"
         }
       ]
+    },
+    "arguments-by-object": {
+      "id": "arguments-by-object",
+      "files": [
+        {
+          "name": "script.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     }
   }
 }
