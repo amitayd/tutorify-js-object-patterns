@@ -4,6 +4,7 @@ function asArray() {
         
     var argsArray = 
         Array.prototype.slice.call(arguments);
+        
     console.log("argsArray.pop defined:",
         argsArray.pop !== undefined);        
 }
