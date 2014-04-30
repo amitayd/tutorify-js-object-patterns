@@ -3,30 +3,25 @@ var market = {
 };
 
 function Employee(salaryMultiplier) {
-    this.salaryMultiplier = salaryMultiplier;
+    // Implement this
 }
 
 Employee.prototype = {
     getSalary: function() {
-        return market.averageSalary * this.salaryMultiplier;
+        // Implement this
     }
 };
 
 function Developer(specialty) {
-    this.specialty = specialty;
+    // Implement this
 }
 
 Developer.prototype = new Employee(2.0);
 
 function JavascriptDeveloper() {
-    this.salaryMultiplier = 3.0;
+    // Implement this
 }
 
-JavascriptDeveloper.prototype = new Developer('javascript');
-
-
-var john = new JavascriptDeveloper();
-
-console.log(john.getSalary(), john.specialty);
-
+// Modify this
+JavascriptDeveloper.prototype = new Developer();
 
