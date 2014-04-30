@@ -158,6 +158,11 @@
           "name": "script.js",
           "mode": "javascript",
           "role": "script"
+        },
+        {
+          "name": "test.js",
+          "mode": "javascript",
+          "role": "script"
         }
       ]
     },
