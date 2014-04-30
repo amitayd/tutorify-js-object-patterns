@@ -1,20 +1,15 @@
 function test() {
-    function assertGreeting(actual, expected) {
-        console.log('===Test Passed:', actual === expected, '===');
-        console.log('Expected:', expected);
-        console.log('Actual:', actual);        
-    }
-    assertGreeting(
+    assertExpected(
         generateGreeting('Hello', 'world', 'people', 'void'),
         'Hello, world, people and void'
     );    
     
-    assertGreeting(
+    assertExpected(
         generateGreeting('Hello', 'world'),
         'Hello, world'
     );
     
-    assertGreeting(
+    assertExpected(
         generateGreeting('Hello'),
         'Hello'
     );      
