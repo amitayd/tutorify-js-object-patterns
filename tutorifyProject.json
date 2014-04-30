@@ -10,7 +10,7 @@
       }
     ],
     "liveUpdate": true,
-    "fontSize": 16,
+    "fontSize": 12,
     "resourceCss": [
       {
         "src": "result.css"
