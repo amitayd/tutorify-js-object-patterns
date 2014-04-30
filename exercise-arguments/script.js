@@ -1,7 +1,6 @@
 function generateGreeting() {
-    var greeting = '';
-    // Implement the functions   
-    
-    return greeting;
+    var greeting = arguments[0];
+
 }
 
+console.log(generateGreeting('hello'));

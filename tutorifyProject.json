@@ -175,6 +175,10 @@
           "role": "script"
         }
       ]
+    },
+    "exercise-objects": {
+      "id": "exercise-objects",
+      "files": []
     }
   }
 }
