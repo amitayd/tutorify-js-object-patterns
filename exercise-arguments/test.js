@@ -12,7 +12,12 @@ function test() {
     assertGreeting(
         generateGreeting('Hello', 'world'),
         'Hello, world'
-    );     
+    );
+    
+    assertGreeting(
+        generateGreeting('Hello'),
+        'Hello'
+    );      
 }
 
 test();
