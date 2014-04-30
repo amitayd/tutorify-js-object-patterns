@@ -1,10 +1,18 @@
 function test() {
-    var actualGreeting = generateGreeting('Hello', 'world', 'people', 'void');
-    var expectedGreeting = 'Hello, world, people and void';
+    function assertGreeting(actual, expected) {
+        console.log('===Test Passed:', actual === expected, '===');
+        console.log('Expected:', expected);
+        console.log('Actual:', actual);        
+    }
+    assertGreeting(
+        generateGreeting('Hello', 'world', 'people', 'void'),
+        'Hello, world, people and void'
+    );    
     
-    console.log('Test Passed:', actualGreeting === expectedGreeting);
-    console.log('Expected:', expectedGreeting);
-    console.log('Actual:', actualGreeting);
+    assertGreeting(
+        generateGreeting('Hello', 'world'),
+        'Hello, world'
+    );     
 }
 
 test();
