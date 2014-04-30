@@ -168,7 +168,13 @@
     },
     "playground": {
       "id": "playground",
-      "files": []
+      "files": [
+        {
+          "name": "playground.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     }
   }
 }
