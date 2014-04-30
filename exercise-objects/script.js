@@ -19,7 +19,7 @@ function Developer(specialty) {
 Developer.prototype = new Employee(2.0);
 
 function JavascriptDeveloper() {
-    this.salarymultiplier = 3.0;
+    this.salaryMultiplier = 3.0;
 }
 
 JavascriptDeveloper.prototype = new Developer('javascript');
