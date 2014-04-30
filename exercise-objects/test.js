@@ -1,16 +1,4 @@
 function test() {
-    var david = new JavascriptDeveloper();
-    assertExpected(
-        market.averageSalary * 3.0,
-        david.getSalary(),
-        'david\'s salary'
-    );
-    
-    assertExpected(
-        'javascript',
-        david.specialty,
-        'david\'s specialty'
-    );
     
     var dev = new Developer('nothing special')
     
@@ -24,7 +12,22 @@ function test() {
         'nothing special',
         dev.specialty,
         'dev\'s specialty'
-    );    
+    );   
+    
+    var david = new JavascriptDeveloper();
+    assertExpected(
+        market.averageSalary * 3.0,
+        david.getSalary(),
+        'david\'s salary'
+    );
+    
+    assertExpected(
+        'javascript',
+        david.specialty,
+        'david\'s specialty'
+    );
+    
+ 
     
 }
 

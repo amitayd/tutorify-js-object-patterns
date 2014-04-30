@@ -23,5 +23,5 @@ function JavascriptDeveloper() {
 }
 
 // Modify this
-JavascriptDeveloper.prototype = new Developer();
+JavascriptDeveloper.prototype = new Object();
 
